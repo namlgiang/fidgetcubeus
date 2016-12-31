@@ -28,7 +28,7 @@ $(document).ready(function() {
       scrollTop: $(".media").offset().top - 50
     }, 500);
   });
-  $(".nav-3").click(function() {
+  $(".action-button, .nav-3").click(function() {
     $('html, body').animate({
       scrollTop: $(".shop").offset().top - 50
     }, 500);
