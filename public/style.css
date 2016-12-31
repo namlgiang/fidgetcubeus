@@ -293,6 +293,13 @@ ul, li {
   color: #333;
 }
 
+.shop .hr {
+  background-color: #25b6e6;
+  width: 300px;
+  height: 2px;
+  margin: 10px 0;
+}
+
 .shop .price {
   font-size: 30px;
   color: #25b6e6;
