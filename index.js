@@ -11,7 +11,7 @@ var app = express()
 //
 // , agreeTos: true
 //
-// , approveDomains: [ 'getmyfidgetcube.us' ]
+// , approveDomains: [ 'fidgetcube.us' ]
 //
 // , app: app.use(express.static('public'))
 //
@@ -20,13 +20,13 @@ var app = express()
 
 var leStore = require('le-store-certbot').create({
   configDir: '/etc/letsencrypt',          // or /etc/letsencrypt or wherever
-  privkeyPath: ':configDir/live/getmyfidgetcube.us/privkey.pem',          //
-  fullchainPath: ':configDir/live/getmyfidgetcube.us/fullchain.pem',      // Note: both that :configDir and :hostname
-  certPath: ':configDir/live/getmyfidgetcube.us/cert.pem',                //       will be templated as expected by
-  chainPath: ':configDir/live/getmyfidgetcube.us/chain.pem',              //       node-letsencrypt
+  privkeyPath: ':configDir/live/fidgetcube.us/privkey.pem',          //
+  fullchainPath: ':configDir/live/fidgetcube.us/fullchain.pem',      // Note: both that :configDir and :hostname
+  certPath: ':configDir/live/fidgetcube.us/cert.pem',                //       will be templated as expected by
+  chainPath: ':configDir/live/fidgetcube.us/chain.pem',              //       node-letsencrypt
   workDir: '/etc/letsencrypt/var/lib',
   logsDir: '/etc/letsencrypt/var/log',
-  webrootPath: '/etc/letsencrypt/srv/www/getmyfidgetcube.us/.well-known/acme-challenge',
+  webrootPath: '/etc/letsencrypt/srv/www/fidgetcube.us/.well-known/acme-challenge',
   debug: false
 });
 
