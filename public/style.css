@@ -1,17 +1,3 @@
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: normal;
-  src: url(Open_Sans/OpenSans-Regular.ttf) format('tff');
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: bold;
-  src: url(Open_Sans/OpenSans-Bold.ttf) format('tff');
-}
-
 body {
   font-family: "Open Sans";
   margin: 0;
