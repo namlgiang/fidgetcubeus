@@ -135,7 +135,7 @@ ul, li {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,.2);
+  background: rgba(55, 140, 255, 0.2);
 }
 
 .video-frame.active:after {
@@ -159,7 +159,7 @@ ul, li {
   color: #fff;
   border-radius: 5px;
   border: 2px solid #fff;
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 144, 67, 0.5);
   transition: 0.2s;
 }
 
