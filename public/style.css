@@ -330,3 +330,11 @@ ul, li {
   font-size: 12px;
   margin-bottom: 20px;
 }
+
+.warning {
+  color: #fff;
+  background: #000;
+  font-size: 13px;
+  padding: 10px 20px;
+  margin: 15px 0;
+}
