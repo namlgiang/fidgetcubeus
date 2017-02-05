@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url(Open_Sans/OpenSans-Regular.ttf) format('tff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: url(Open_Sans/OpenSans-Bold.ttf) format('tff');
+}
+
 body {
   font-family: "Open Sans";
   margin: 0;
@@ -290,14 +304,6 @@ ul, li {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #333;
-}
-
-.shop .hr {
-  background-color: #25b6e6;
-  width: 80px;
-  height: 2px;
-  margin: 10px 0;
 }
 
 .shop .price {
@@ -331,10 +337,47 @@ ul, li {
   margin-bottom: 20px;
 }
 
-.warning {
+.quantity {
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80px;
+}
+
+.checkout {
+  font-size: 18px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  background: #0090ff;
   color: #fff;
-  background: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 200ms;
+  -webkit-transition: 200ms;
+}
+
+.checkout:hover {
+  background: #0064b1;
+}
+
+.redirect {
+  margin-bottom: 30px;
+  margin-top:-10px;
   font-size: 13px;
-  padding: 10px 20px;
-  margin: 15px 0;
+  font-weight: bold;
+  color: #0069b9;
+}
+
+.shipping {
+  margin-top: 10px;
+}
+
+.shop .hr {
+  background-color: #25b6e6;
+  width: 80px;
+  height: 2px;
+  margin: 10px 0;
 }
