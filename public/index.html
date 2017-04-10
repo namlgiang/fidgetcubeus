@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <html>
   <head>
     <meta charset="utf-8">
@@ -35,9 +36,10 @@
       </ul>
     </div>
 
+    <span itemscope itemtype="http://schema.org/Product">
     <div class="intro">
 
-      <img src="landscape.jpg" class="cover" alt="" />
+      <img itemprop="image" src="landscape.jpg" class="cover" alt="" />
       <div class="action">
         <div class="price">
           <span class="sale">$19.50</span><span class="old-price">$25</span>
@@ -51,12 +53,12 @@
     <div class="video">
       <div class="video-frame">
         <div class="video-action">
-          Meet Fidget Cube
+          Meet <span itemprop="name">Fidget Cube</span>
         </div>
       </div>
       <div class="description">
-        <h1>Meet Fidget Cube</h1>
-        <p>
+        <h1 itemprop="brand" itemscope itemtype="http://schema.org/Brand">Meet<span itemprop="name">Meet Fidget Cube</span></h1>
+        <p itemprop="description">
           An unusually addicting, high-quality desk toy designed to help you focus. Fidget at work, in class, and at home in style.
         </p>
       </div>
@@ -324,6 +326,7 @@
       </div>
 
     </div>
+    </span>
 
     <div class="footer">
       <div class="container">
