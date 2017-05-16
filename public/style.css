@@ -43,10 +43,12 @@ ul, li {
 
 .header li {
   display: inline-block;
-  padding: 5px 20px;
-  margin: 10px 0;
+  padding: 0 20px;
+  margin: 20px 0;
   cursor: pointer;
   color: rgba(255,255,255,.8);
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .header li:not(:hover) {
